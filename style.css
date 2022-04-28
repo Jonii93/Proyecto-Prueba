@@ -145,12 +145,12 @@ h1{
     font-style: italic; 
 }
 
-/* Portafolio imagenes*/
+/* Portafolio imagenes
 
 .portafolio__imagen{
     width: 350%;
     height: 350%;
-    object-fit: contain;
+    object-fit: contain;*/
 }
 
 
@@ -196,7 +196,7 @@ h1{
 }*/
 
 
-
+/* Catalogo */
 
 div.gallery {
     border: 1px solid #ccc;
