@@ -18,10 +18,9 @@ body {
     grid-template-rows: 10rem;
 }
 
-.cabecera__logo{
-    max-width: 0,5rem;
-    max-height: 0,5rem;
-    object-fit: contain;
+.navbar-brand{
+    max-width: 3rem;
+    max-height: 3rem;
 }
 
 .cabecera__img {
@@ -86,6 +85,15 @@ a {
     width: 100%;
 }
 
+.foto__conoceme{
+    max-width: 30rem;
+    max-height: 30rem;
+}
+
+.quien__soy{
+    text-shadow: 2px 2px 5px red;
+}
+
 /*  FOOTER  */
 
 .lista__logos__conjunto{
@@ -100,10 +108,11 @@ a {
     background-size: 100%;
     object-fit:cover;
     background-repeat: no-repeat;
+    border: solid red;
 }
 
 .p__contactos{
-    color: rgba(216, 250, 215, 0.925);
+    color: rgba(214, 23, 23, 0.925);
     font-style: italic;
     
 }
@@ -147,7 +156,7 @@ h1{
 
 /* Catalogo */
 
-.grid__catalogo{
+/*.grid__catalogo{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(2,15rem);
@@ -184,6 +193,54 @@ h1{
     .grid__catalogo {
         grid-template-columns: 1fr;
     }
-}
+}*/
 
 
+
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
