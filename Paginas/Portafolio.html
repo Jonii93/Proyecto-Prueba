@@ -12,41 +12,32 @@
     <title>Fouzcam</title>
 </head>
 <body>
-    <header class="cabecera">
+    <header class="grid__header">
         <section class="cabecera__img">
             <a href="../index.html"><img src="../Fouzcam/Fouzcam largo png.png" alt="Logo principal del emprendimiento" class="cabecera__logo"></a>
         </section>
-        <section class="navegacion">
-            <nav class="cabecera__navegacion">
-                <ul class="cabecera__navegacion__lista">
-                    <li class="navegacion__logo__chico">
-                        <img src="../Fouzcam/logo Fouzcam corto png.png" alt="Logo chico">
-                    </li>
-                    <li>
-                        <a href="../index.html"> Inicio </a>
-                    </li>
-                    <li>
-                        <a href="../Paginas/Conoceme.html"> Conoceme</a>
-                    </li>
-                    <li>
-                        <a href="../Paginas/Catalogo.html"> Catalogo</a>
-                    </li>
-                    <li>
-                        <a href="../Paginas/Portafolio.html"> Portafolio</a>
-                    </li>
-                    <li>
-                        <a href="../Paginas/Contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"> <img clas= "logo__chico" src="../Fouzcam/logo Fouzcam corto png.png" alt="Logo chico"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                      <a class="nav-link" href="../Paginas/Catalogo.html">Catalogo</a>
+                      <a class="nav-link" href="../Paginas/Conoceme.html">Conoceme</a>
+                      <a class="nav-link" href="#">Portafolio</a>
+                      <a class="nav-link" href="../Paginas/Contacto.html">Contacto</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </section>
     </header> 
     <main>
         <h1>Portafolio</h1>
-        <!--<section class="portafolio__imagen">
-            <img src="../Fouzcam/1.jpg">
-            <img src="../Fouzcam/2.jpg">
-        </section> -->
         <section class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12"></div>
@@ -82,10 +73,6 @@
     <footer class="grid__footer">
         <ul class="lista__logos__conjunto">
             <li>
-                <div><p class="p__contactos">Contactos</p></div>
-                <div><p class="p__contactos">Celular: xxxx-xxxx  - Mail:fouzcam@gmail.com</p></div>
-            </li>
-            <li>
                 <a href="https://www.facebook.com/fouzcam" target="_blank">
                  <img src="../Fouzcam/facebook.png" alt="logo facebook" class="logo__facebook"></a>
             </li>
@@ -103,4 +90,5 @@
         </ul>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
