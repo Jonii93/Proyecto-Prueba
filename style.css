@@ -35,7 +35,7 @@ body {
  .navegacion{
      background-color: white;
      display: flex;
-     justify-content: space-evenly   
+     justify-content: space-evenly;
  }
 
 .navegacion__logo__chico{
@@ -91,7 +91,7 @@ a {
 }
 
 .quien__soy{
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 2px 2px 5px rgb(0, 238, 255);
 }
 
 /*  FOOTER  */
@@ -108,7 +108,6 @@ a {
     background-size: 100%;
     object-fit:cover;
     background-repeat: no-repeat;
-    border: solid red;
 }
 
 .p__contactos{
@@ -145,12 +144,12 @@ h1{
     font-style: italic; 
 }
 
-/* Portafolio imagenes
+/* Portafolio imagenes*/
 
 .portafolio__imagen{
     width: 350%;
     height: 350%;
-    object-fit: contain;*/
+    object-fit: contain;
 }
 
 
@@ -198,6 +197,12 @@ h1{
 
 /* Catalogo */
 
+.no__dudes{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+
 div.gallery {
     border: 1px solid #ccc;
   }
@@ -243,4 +248,8 @@ div.gallery {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .galeria__titulo{
+      text-align: center;
   }
