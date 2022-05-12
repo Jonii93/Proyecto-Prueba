@@ -1,0 +1,41 @@
+.grid-container{
+    display: grid;
+
+    .lista__logos__conjunto{
+        list-style: none;
+        display: grid;
+        text-align: center;
+
+        .grid-item item1{
+            text-align: center;
+
+            .p__contactos{
+                
+            }
+        }
+        .grid-item item2{
+            .logo__facebook{
+
+            }
+
+        }
+        .grid-item item3{
+            .logo__ig{
+
+            }
+
+        }
+        .grid-item item4{
+            .logo__you{
+
+            }
+
+        }
+        .grid-item item5{
+            .footer__logo__chico{
+
+            }
+
+        }
+    }
+}
