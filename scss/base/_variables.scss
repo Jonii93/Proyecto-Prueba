@@ -1,1 +1,20 @@
-$color-background: pink 
+/* Maps */
+
+$colores:(
+    color-background: pink,
+);
+
+$tamanio-tipografia: (
+    titulos: 24px,
+    subtitulos: 20px,
+    parrafos: 14px,
+    letra-chica: 12px,
+);
+
+/* Extend */
+
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center
+};
