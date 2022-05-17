@@ -1,5 +1,5 @@
 header{
-    color: $color-backgroud;
+    font-size: map-get($map: $colores, $key:background-color);
 
     .desktop{
 
@@ -17,5 +17,5 @@ header{
 
 
 .h1{
-    font-size: map-get($map: tamanio-tipografia, $key:titulos );
+    font-size: map-get($map: tamanio-tipografia, $key:titulos);
 }
