@@ -18,3 +18,12 @@ $tamanio-tipografia: (
     justify-content: center;
     align-items: center
 };
+
+/* Mixin */
+
+@mixin flexbox ($direction, $justify, $align){
+    display: flex;
+    direction: $direction ;
+    justify-content: $justify;
+    align-items: $align;
+}

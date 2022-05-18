@@ -2,13 +2,13 @@ header{
     font-size: map-get($colores, background-color);
 
     .desktop{
-
+        
         .cabecera__img{
             @extend %flex-center;
         };
 
         .video__intro{
-            @extend %flex-center;
+            @include flexbox(column,center,center)
         };
 
         
